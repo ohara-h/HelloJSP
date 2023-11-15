@@ -9,7 +9,7 @@
 <body>
 	<%@page isErrorPage="true" %>
 	<p>数値を入力してください</p>
-	<button oneclick="history.back()">戻る</button>
+	<button onclick="history.back()">戻る</button>
 	<br>
 	<p><%=exception %></p>
 	<table border=1>
